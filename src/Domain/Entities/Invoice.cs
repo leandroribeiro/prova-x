@@ -1,4 +1,7 @@
-public class Invoice
+namespace Domain.Entities
 {
+    public class Invoice
+    {
 
+    }
 }

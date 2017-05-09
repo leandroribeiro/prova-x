@@ -1,4 +1,7 @@
-public class Company
+namespace Domain.Entities
 {
-    public int ID {get;set;}
+    public class Company
+    {
+        public int ID { get; set; }
+    }
 }

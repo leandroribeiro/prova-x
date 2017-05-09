@@ -1,5 +1,9 @@
 using System;
 using Xunit;
+using Domain;
+using Domain.Services;
+using Domain.Repositories;
+using Domain.Entities;
 
 namespace Domain.Tests
 {

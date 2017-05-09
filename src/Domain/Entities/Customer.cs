@@ -1,4 +1,7 @@
-public class Customer
+namespace Domain.Entities
 {
+    public class Customer
+    {
 
+    }
 }

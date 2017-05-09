@@ -1,6 +1,10 @@
 using System;
 using Moq;
 using Xunit;
+using Domain;
+using Domain.Services;
+using Domain.Repositories;
+using Domain.Entities;
 
 namespace Domain.Tests
 {
@@ -36,7 +40,7 @@ namespace Domain.Tests
             Assert.Equal(beforeTaxRate, 200);
             Assert.Equal(beforeTax.Rate, 300);
             Assert.Equal(afterTax.Rate, 300);
-            
+
             Assert.NotEqual(beforeTaxRate, afterTax.Rate);
             Assert.Equal(afterTax.Rate, newTaxRate);
         }
