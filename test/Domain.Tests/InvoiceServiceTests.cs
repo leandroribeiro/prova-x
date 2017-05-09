@@ -21,5 +21,6 @@ namespace Domain.Tests
 
             Assert.Equal(amoutTotal, 10000);            
         }
+        
     }
 }
