@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{89098E09-DEB3-404B-9BA3-6B04BE8FCE1E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Domain/Entities/Tax.cs">
+    <Files>
+      <File FileName="test/Domain.Tests/TaxRepositoryTests.cs" Line="31" Column="13" />
+      <File FileName="src/Domain/Repositories/IInvoiceRepository.cs" Line="2" Column="5" />
+      <File FileName="src/Domain/Repositories/ITaxRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Domain/Services/IInvoiceService.cs" Line="1" Column="1" />
+      <File FileName="src/Domain/Services/InvoiceService.cs" Line="26" Column="67" />
+      <File FileName="test/Domain.Tests/InvoiceServiceTests.cs" Line="48" Column="43" />
+      <File FileName="src/Domain/Entities/Invoice.cs" Line="32" Column="59" />
+      <File FileName="src/Domain/Entities/Tax.cs" Line="25" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.test.Domain.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

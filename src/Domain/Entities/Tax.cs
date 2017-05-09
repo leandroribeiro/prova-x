@@ -22,7 +22,7 @@ namespace Domain.Entities
 
         public virtual decimal Apply(decimal value)
         {
-            return value * this.Rate;
+            return value * (this.Rate/100);
         }
 
     }
