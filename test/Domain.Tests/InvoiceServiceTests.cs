@@ -81,6 +81,22 @@ namespace Domain.Tests
             Assert.Equal(1965M, taxeAmmoutTotal);
         }
 
+        [Fact]
+        public void ShouldReturnRoundTwoDigits()
+        {
+			//Arrange
+			var company = new Company(1);
+			var customer = new Customer();
+			var invoice = new Invoice(company, customer);
+			invoice.Ammout = 20000.98765431M;
+
+			//Act
+			var taxeAmmoutTotal = _invoiceService.Calculate(invoice);
+
+			//Assert
+			Assert.Equal(3930.19M, taxeAmmoutTotal);
+        }
+
 
         [Fact]
         public void ShouldReturnTotalAmountWithholdTaxesByCompany()
